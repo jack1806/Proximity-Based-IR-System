@@ -88,15 +88,9 @@ if __name__ == "__main__":
         rank = 1
         for i in sorted(dic.keys(), reverse=True):
             for j in dic[i]:
-                if rank > 5:
-                    if input("Next 5 ?") == "Y":
-                        rank = 1
-                        continue
-                    else:
-                        break
                 with open(j.replace(WORDS_DATA_LOCATION, TEXT_STORE_LOCATION).replace(".csv", "")) as final:
                     loc = final.readline()
-                print(rank, "->", loc.split("/")[-1], i)
+                print(rank, "->", loc.split("/")[-1])
                 rank += 1
     else:
         print("Error")
