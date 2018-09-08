@@ -68,13 +68,13 @@ if __name__ == "__main__":
         print(" ".join(word_weights))
 
         doc = DocumentSearch()
-        csvFiles = doc.search("csv")
+        csvfiles = doc.search("csv")
         dic = {}
 
         with open(WORDS_DATA_LOCATION+"/total", 'r') as w:
             words_count = int(w.readline())
 
-        for csvData in csvFiles:
+        for csvData in csvfiles:
             with open(csvData) as f:
                 reader = csv.reader(f)
                 data = [list(d) for d in reader]

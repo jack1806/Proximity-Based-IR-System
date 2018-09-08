@@ -2,6 +2,7 @@
   <dictionary name="root">
     <words>
       <w>autocorrect</w>
+      <w>csvfiles</w>
       <w>currentdir</w>
       <w>dataset</w>
       <w>nnps</w>
