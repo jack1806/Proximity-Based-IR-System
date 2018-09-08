@@ -1,5 +1,6 @@
 import csv
 import nltk
+import time
 # from autocorrect import spell
 from DocumentSearch import DocumentSearch
 from nltk.tokenize import word_tokenize
@@ -49,12 +50,15 @@ def main_search(m_words, m_data, w_count, prior):
 
 if __name__ == "__main__":
     query = input("Query : ")
+
+    start_time = time.time()
+
     # f_query = ""
     # for i in query.split():
     #     f_query += spell(i)+" "
     # query = f_query
 
-    print(query)
+    # print(query)
 
     punctuations = ['(', ')', ';', ':', '[', ']', ',', '.', "'s", '-']
     stop_words = stopwords.words('english')
@@ -64,8 +68,8 @@ if __name__ == "__main__":
     word_weights = get_prior(words)
 
     if words:
-        print(" ".join(words))
-        print(" ".join(word_weights))
+        # print(" ".join(words))
+        # print(" ".join(word_weights))
 
         doc = DocumentSearch()
         csvfiles = doc.search("csv")
@@ -85,12 +89,20 @@ if __name__ == "__main__":
                 else:
                     dic[score] = [csvData]
 
+        total_time_taken = time.time() - start_time
+
         rank = 1
+        header_format = "%5s %15s %8s"
+        result_format = "%5d %15.9f"
+        print("Search finished in about %3.2f seconds..." % total_time_taken)
+        print(header_format % ("Rank", "Weight", "Name"))
         for i in sorted(dic.keys(), reverse=True):
-            for j in dic[i]:
-                with open(j.replace(WORDS_DATA_LOCATION, TEXT_STORE_LOCATION).replace(".csv", "")) as final:
-                    loc = final.readline()
-                print(rank, "->", loc.split("/")[-1])
-                rank += 1
+            if i > float(0):
+                for j in dic[i]:
+                    with open(j.replace(WORDS_DATA_LOCATION, TEXT_STORE_LOCATION).replace(".csv", "")) as final:
+                        loc = final.readline()
+                    print((result_format % (rank, i)+"\t"+loc.split("/")[-1]).strip("\n"))
+                    # print(rank, "->", loc.split("/")[-1])
+                    rank += 1
     else:
         print("Error")
