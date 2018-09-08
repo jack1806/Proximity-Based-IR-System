@@ -16,6 +16,7 @@ stop_words = stopwords.words('english')
 doc = DocumentSearch()
 allFiles = doc.search("pdf")
 done = 0
+total_words = 0
 
 for i in allFiles:
     pdf = open(i, 'rb')
@@ -35,9 +36,11 @@ for i in allFiles:
 
     index_elements = []
     writeData = [[a for a in unique_elements]]
+
     for j in unique_elements:
         # index_elements.append([indexes for indexes, value in enumerate(words) if value == j])
         writeData.append([j, count_elements[list(unique_elements).index(j)], [z for z, val in enumerate(words) if val == j]])
+        total_words += count_elements[list(unique_elements).index(j)]
 
     with open(WORDS_DATA_LOCATION+"/"+str(allFiles.index(i))+".csv", 'w') as words_data_file:
         writer = csv.writer(words_data_file)
@@ -48,3 +51,6 @@ for i in allFiles:
     scraped.close()
     done += 1
     print("Progress ", done, "/", len(allFiles))
+
+with open(WORDS_DATA_LOCATION+"/total", 'w') as w:
+    w.write(str(total_words))
