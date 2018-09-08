@@ -1,4 +1,5 @@
 import csv
+from autocorrect import spell
 from DocumentSearch import DocumentSearch
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -36,6 +37,10 @@ def main_search(m_words, m_data, w_count):
 
 if __name__ == "__main__":
     query = input("Query : ")
+    f_query = ""
+    for i in query.split():
+        f_query += spell(i)+" "
+    query = f_query
     punctuations = ['(', ')', ';', ':', '[', ']', ',', '.', "'s", '-']
     stop_words = stopwords.words('english')
     tokens = word_tokenize(query, 'english')
