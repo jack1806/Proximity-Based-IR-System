@@ -14,7 +14,7 @@ punctuations = ['(', ')', ';', ':', '[', ']', ',', '.', "'s", "-", "*"]
 stop_words = stopwords.words('english')
 
 doc = DocumentSearch()
-allFiles = doc.search()
+allFiles = doc.search("pdf")
 done = 0
 
 for i in allFiles:
@@ -44,7 +44,7 @@ for i in allFiles:
         writer.writerows(writeData)
 
     scraped = open(TEXT_STORE_LOCATION+"/"+str(allFiles.index(i)), 'w')
-    scraped.write("\n".join(words)+i)
+    scraped.write(i+"\n"+("\n".join(words)))
     scraped.close()
     done += 1
     print("Progress ", done, "/", len(allFiles))
