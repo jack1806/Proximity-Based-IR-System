@@ -1,23 +1,50 @@
 import PyPDF2
-import textract
+import numpy as np
+import csv
 
+from DocumentSearch import DocumentSearch
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
-punctuations = ['(', ')', ';', ':', '[', ']', ',', '.', "'s", '-']
+TEXT_STORE_LOCATION = "scrap_data"
+DATA_STORE_LOCATION = "dataset"
+WORDS_DATA_LOCATION = "words_data"
+
+punctuations = ['(', ')', ';', ':', '[', ']', ',', '.', "'s", "-", "*"]
 stop_words = stopwords.words('english')
 
-pdf = open("dataset/15147_split_1.pdf", 'rb')
+doc = DocumentSearch()
+allFiles = doc.search()
+done = 0
 
-#txt = open("15147_split_1", 'a')
+for i in allFiles:
+    pdf = open(i, 'rb')
+    reader = PyPDF2.PdfFileReader(pdf)
+    text = ""
+    n = reader.numPages
+    for j in range(n):
+        obj = reader.getPage(j)
+        text += obj.extractText()
+    tokens = word_tokenize(text, 'english')
 
-reader = PyPDF2.PdfFileReader(pdf)
-text = ""
+    words = [word.lower() for word in tokens if not word.lower() in stop_words and not word.lower() in punctuations]
 
-n = reader.numPages
-for i in range(n):
-    obj = reader.getPage(i)
-    text += obj.extractText()
-tokens = word_tokenize(text, 'english')
-words = [word.lower() for word in tokens if not word.lower() in stop_words and not word.lower() in punctuations]
-print(words)
+    unique_elements, count_elements = np.unique(words, return_counts=True)
+
+    np.asarray((unique_elements, count_elements))
+
+    index_elements = []
+    writeData = [[a for a in unique_elements]]
+    for j in unique_elements:
+        # index_elements.append([indexes for indexes, value in enumerate(words) if value == j])
+        writeData.append([j, count_elements[list(unique_elements).index(j)], [z for z, val in enumerate(words) if val == j]])
+
+    with open(WORDS_DATA_LOCATION+"/"+str(allFiles.index(i))+".csv", 'w') as words_data_file:
+        writer = csv.writer(words_data_file)
+        writer.writerows(writeData)
+
+    scraped = open(TEXT_STORE_LOCATION+"/"+str(allFiles.index(i)), 'w')
+    scraped.write("\n".join(words)+i)
+    scraped.close()
+    done += 1
+    print("Progress ", done, "/", len(allFiles))
