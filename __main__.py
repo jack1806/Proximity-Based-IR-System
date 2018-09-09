@@ -49,6 +49,14 @@ def main_search(m_words, m_data, w_count, prior):
 
 
 if __name__ == "__main__":
+
+    doc = DocumentSearch()
+    csvfiles = doc.search("csv")
+    dic = {}
+
+    with open(WORDS_DATA_LOCATION+"/total", 'r') as w:
+            words_count = int(w.readline())
+
     query = input("Query : ")
 
     start_time = time.time()
@@ -70,13 +78,6 @@ if __name__ == "__main__":
     if words:
         # print(" ".join(words))
         # print(" ".join(word_weights))
-
-        doc = DocumentSearch()
-        csvfiles = doc.search("csv")
-        dic = {}
-
-        with open(WORDS_DATA_LOCATION+"/total", 'r') as w:
-            words_count = int(w.readline())
 
         for csvData in csvfiles:
             with open(csvData) as f:
