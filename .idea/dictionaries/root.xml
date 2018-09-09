@@ -2,10 +2,13 @@
   <dictionary name="root">
     <words>
       <w>autocorrect</w>
+      <w>choosen</w>
+      <w>clicksfile</w>
       <w>csvfiles</w>
       <w>currentdir</w>
       <w>dataset</w>
       <w>nnps</w>
+      <w>pdfindex</w>
     </words>
   </dictionary>
 </component>

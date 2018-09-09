@@ -45,7 +45,6 @@
 /root/Projects/Proximity-Based-IR-System/words_data/85.csv
 /root/Projects/Proximity-Based-IR-System/words_data/54.csv
 /root/Projects/Proximity-Based-IR-System/words_data/38.csv
-/root/Projects/Proximity-Based-IR-System/words_data/120.csv
 /root/Projects/Proximity-Based-IR-System/words_data/114.csv
 /root/Projects/Proximity-Based-IR-System/words_data/22.csv
 /root/Projects/Proximity-Based-IR-System/words_data/8.csv

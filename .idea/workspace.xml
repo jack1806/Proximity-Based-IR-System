@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3064c890-c9fe-4fb9-8876-ed93e9598837" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/clicks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdfindex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/root.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/root.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DocumentSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/DocumentSearch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvFiles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/csvFiles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/1531746344047_Certificate.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfFiles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFiles.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrap_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrap_data/100" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/100" afterDir="false" />
@@ -29,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/scrap_data/117" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/117" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrap_data/118" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/118" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrap_data/119" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/119" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap_data/120" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scrap_data/67" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/67" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrap_data/68" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/68" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrap_data/69" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/69" afterDir="false" />
@@ -82,6 +86,7 @@
       <change beforePath="$PROJECT_DIR$/words_data/117.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/117.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/words_data/118.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/118.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/words_data/119.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/119.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/words_data/120.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/words_data/67.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/67.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/words_data/68.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/68.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/words_data/69.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/69.csv" afterDir="false" />
@@ -125,27 +130,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/__main__.py">
+    <leaf>
+      <file leaf-file-name="scrap_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrap_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+            <state relative-caret-position="1065">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
-                <element signature="e#20#30#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrap_data/1">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="clicks.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clicks.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="204" selection-start-column="204" selection-end-column="204" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/words_data/1.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__main__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#20#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -161,6 +177,9 @@
     <findStrings>
       <find>`</find>
       <find>81.csv</find>
+      <find>leap</find>
+      <find>sunlight</find>
+      <find>TEXT_STORE_LOCATION</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,8 +190,10 @@
       <list>
         <option value="$PROJECT_DIR$/documents_search.py" />
         <option value="$PROJECT_DIR$/DocumentSearch.py" />
+        <option value="$PROJECT_DIR$/scrap_data/0" />
         <option value="$PROJECT_DIR$/scrap_data.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/clicks.txt" />
       </list>
     </option>
   </component>
@@ -225,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__main__">
+  <component name="RunManager" selected="Python.scrap_data">
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Proximity-Based-IR-System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,8 +308,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.scrap_data" />
+        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.documents_search" />
       </list>
     </recent_temporary>
@@ -307,11 +328,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6218355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6218355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -334,7 +356,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -493,35 +515,64 @@
     <entry file="file://$PROJECT_DIR$/words_data/7.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrap_data/0">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrap_data/86">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrap_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/words_data/0.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scrap_data/1">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/words_data/1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="324" column="8" selection-start-line="324" selection-end-line="324" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrap_data/0">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/words_data/21.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrap_data/21">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfindex.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrap_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#20#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clicks.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="204" selection-start-column="204" selection-end-column="204" />
         </state>
       </provider>
     </entry>

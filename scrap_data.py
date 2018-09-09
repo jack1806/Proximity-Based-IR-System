@@ -9,6 +9,8 @@ from nltk.corpus import stopwords
 TEXT_STORE_LOCATION = "scrap_data"
 DATA_STORE_LOCATION = "dataset"
 WORDS_DATA_LOCATION = "words_data"
+CLICKS_LOCATION = "clicks.txt"
+PDF_INDEX_LOCATION = "pdfindex.txt"
 
 punctuations = ['(', ')', ';', ':', '[', ']', ',', '.', "'s", "-", "*"]
 stop_words = stopwords.words('english')
@@ -17,6 +19,8 @@ doc = DocumentSearch()
 allFiles = doc.search("pdf")
 done = 0
 total_words = 0
+clicks = []
+indexes = [[], []]
 
 for i in allFiles:
     pdf = open(i, 'rb')
@@ -37,6 +41,9 @@ for i in allFiles:
     index_elements = []
     writeData = [[a for a in unique_elements]]
 
+    indexes[0].append(str(allFiles.index(i)))
+    indexes[1].append(i)
+
     for j in unique_elements:
         # index_elements.append([indexes for indexes, value in enumerate(words) if value == j])
         writeData.append([j, count_elements[list(unique_elements).index(j)], [z for z, val in enumerate(words) if val == j]])
@@ -46,11 +53,19 @@ for i in allFiles:
         writer = csv.writer(words_data_file)
         writer.writerows(writeData)
 
+    clicks.append("1")
+
     scraped = open(TEXT_STORE_LOCATION+"/"+str(allFiles.index(i)), 'w')
     scraped.write(i+"\n"+("\n".join(words)))
     scraped.close()
     done += 1
     print("Progress ", done, "/", len(allFiles))
+
+with open(PDF_INDEX_LOCATION, 'w') as w:
+    w.write(" ".join(indexes[0])+"\n"+" ".join(indexes[1]))
+
+with open(CLICKS_LOCATION, 'w') as w:
+    w.write(" ".join(clicks))
 
 with open(WORDS_DATA_LOCATION+"/total", 'w') as w:
     w.write(str(total_words))

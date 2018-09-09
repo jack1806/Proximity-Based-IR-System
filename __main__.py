@@ -4,7 +4,7 @@ import csv
 import nltk
 import time
 import sys
-from autocorrect import spell
+# from autocorrect import spell
 from DocumentSearch import DocumentSearch
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -12,6 +12,8 @@ from nltk.corpus import stopwords
 TEXT_STORE_LOCATION = "scrap_data"
 DATA_STORE_LOCATION = "dataset"
 WORDS_DATA_LOCATION = "words_data"
+CLICKS_LOCATION = "clicks.txt"
+PDF_INDEX_LOCATION = "pdfindex.txt"
 
 
 def get_prior(text):
@@ -27,6 +29,10 @@ def get_prior(text):
 
 def proxy_dist(a, b):
     return float(1)/(abs(a-b)**2)
+
+
+def click_prob(a):
+    return float(a)/(a+1)
 
 
 def main_search(m_words, m_data, w_count, prior):
@@ -56,22 +62,30 @@ if __name__ == "__main__":
     doc = DocumentSearch()
     csvfiles = doc.search("csv")
     dic = {}
+    indexes = [[], []]
+
+    with open(PDF_INDEX_LOCATION, 'r') as w:
+        indexes[0] = w.readline().split(" ")
+        indexes[1] = w.readline().split(" ")
+
+    with open(CLICKS_LOCATION, 'r') as clicksfile:
+        clicks = list(map(int, clicksfile.readline().split(" ")))
 
     with open(WORDS_DATA_LOCATION+"/total", 'r') as w:
             words_count = int(w.readline())
 
     # print(sys.argv)
-    if len(sys.argv)>1:
+    if len(sys.argv) > 1:
         query = " ".join(sys.argv[1::])
     else:
         query = input("Query : ")
 
     start_time = time.time()
 
-    f_query = ""
-    for i in query.split():
-        f_query += spell(i)+" "
-    query = f_query
+    # f_query = ""
+    # for i in query.split():
+    #     f_query += spell(i)+" "
+    # query = f_query
 
     print(query)
 
@@ -91,7 +105,7 @@ if __name__ == "__main__":
                 reader = csv.reader(f)
                 data = [list(d) for d in reader]
                 # print(data)
-                score = main_search(words, data, words_count, word_weights)
+                score = main_search(words, data, words_count, word_weights)*click_prob(clicks[int(csvData.split("/")[-1].split(".")[0])])
                 if score in dic:
                     dic[score].append(csvData)
                 else:
@@ -103,14 +117,25 @@ if __name__ == "__main__":
         header_format = "%5s %15s %8s"
         result_format = "%5d %15.9f"
         print("Search finished in about %3.2f seconds..." % total_time_taken)
+        final_arrays = []
         print(header_format % ("Rank", "Weight", "Name"))
         for i in sorted(dic.keys(), reverse=True):
             if i > float(0):
                 for j in dic[i]:
                     with open(j.replace(WORDS_DATA_LOCATION, TEXT_STORE_LOCATION).replace(".csv", "")) as final:
                         loc = final.readline()
+                    final_arrays.append(loc)
                     print((result_format % (rank, i)+"\t"+loc.split("/")[-1]).strip("\n"))
                     # print(rank, "->", loc.split("/")[-1])
                     rank += 1
+        pdf_choose = int(input("Click the rank number of the pdf :"))
+        choosen_name = final_arrays[pdf_choose-1].strip("\n")
+        choosen_index = int(indexes[0][indexes[1].index(choosen_name)])
+        print("Index of choosen is", choosen_index)
+        clicks[choosen_index] += 1
+
+        with open(CLICKS_LOCATION, 'w') as w:
+            w.write(" ".join([str(i) for i in clicks]))
+
     else:
         print("Error")

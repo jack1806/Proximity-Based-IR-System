@@ -65,7 +65,6 @@
 /root/Projects/Proximity-Based-IR-System/dataset/15147_split_14.pdf
 /root/Projects/Proximity-Based-IR-System/dataset/GS-2012-01-18_split_4.pdf
 /root/Projects/Proximity-Based-IR-System/dataset/15147_split_89.pdf
-/root/Projects/Proximity-Based-IR-System/dataset/1531746344047_Certificate.pdf
 /root/Projects/Proximity-Based-IR-System/dataset/GS-2012-01-18_split_8.pdf
 /root/Projects/Proximity-Based-IR-System/dataset/15147_split_79.pdf
 /root/Projects/Proximity-Based-IR-System/dataset/GS-2012-01-18_split_9.pdf
