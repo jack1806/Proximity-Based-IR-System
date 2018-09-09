@@ -2,125 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3064c890-c9fe-4fb9-8876-ed93e9598837" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/clicks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfindex.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/root.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/root.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/words_data/vocabulary" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvFiles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/csvFiles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/1531746344047_Certificate.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfFiles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pdfFiles.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrap_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/100" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/100" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/101" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/101" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/102" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/102" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/103" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/103" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/104" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/104" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/105" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/105" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/106" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/106" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/107" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/107" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/108" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/108" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/109" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/109" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/110" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/110" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/111" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/111" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/112" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/112" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/113" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/113" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/114" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/114" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/115" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/115" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/116" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/116" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/117" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/117" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/118" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/118" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/119" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/119" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/120" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/67" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/67" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/68" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/68" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/69" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/69" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/70" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/70" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/71" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/71" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/72" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/72" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/73" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/73" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/74" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/74" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/75" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/75" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/76" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/76" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/77" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/77" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/78" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/78" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/79" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/79" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/80" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/80" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/81" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/81" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/82" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/82" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/83" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/83" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/84" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/84" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/85" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/85" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/86" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/86" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/87" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/87" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/88" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/88" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/89" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/89" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/90" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/90" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/91" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/91" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/92" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/92" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/93" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/94" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/94" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/95" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/95" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/96" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/96" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/97" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/97" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/98" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/98" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap_data/99" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_data/99" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/100.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/101.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/101.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/102.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/102.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/103.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/103.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/104.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/104.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/105.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/105.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/106.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/106.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/107.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/107.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/108.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/108.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/109.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/109.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/110.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/110.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/111.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/111.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/112.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/112.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/113.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/113.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/114.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/114.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/115.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/115.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/116.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/116.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/117.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/117.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/118.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/118.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/119.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/119.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/67.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/67.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/68.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/68.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/69.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/69.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/70.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/70.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/71.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/71.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/72.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/72.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/73.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/73.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/74.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/74.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/75.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/75.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/76.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/76.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/77.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/77.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/78.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/78.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/79.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/79.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/80.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/80.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/81.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/81.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/82.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/82.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/83.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/83.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/84.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/84.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/85.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/85.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/86.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/86.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/87.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/87.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/88.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/88.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/89.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/89.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/90.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/90.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/91.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/91.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/92.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/92.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/93.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/93.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/94.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/94.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/95.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/95.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/96.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/96.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/97.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/97.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/98.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/98.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/99.csv" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/99.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words_data/total" beforeDir="false" afterPath="$PROJECT_DIR$/words_data/total" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -131,35 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scrap_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrap_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clicks.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clicks.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="204" selection-start-column="204" selection-end-column="204" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#20#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -191,9 +51,9 @@
         <option value="$PROJECT_DIR$/documents_search.py" />
         <option value="$PROJECT_DIR$/DocumentSearch.py" />
         <option value="$PROJECT_DIR$/scrap_data/0" />
-        <option value="$PROJECT_DIR$/scrap_data.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
         <option value="$PROJECT_DIR$/clicks.txt" />
+        <option value="$PROJECT_DIR$/scrap_data.py" />
       </list>
     </option>
   </component>
@@ -218,6 +78,11 @@
             <path>
               <item name="Proximity-Based-IR-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proximity-Based-IR-System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proximity-Based-IR-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proximity-Based-IR-System" type="462c0819:PsiDirectoryNode" />
+              <item name="words_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,10 +195,10 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32911393" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6218355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6218355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -364,9 +229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-          <folding>
-            <element signature="e#20#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -381,9 +243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#20#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,9 +257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#20#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -415,9 +271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#20#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -481,31 +334,10 @@
     <entry file="file://$PROJECT_DIR$/nltk_data/corpora/stopwords/english">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/csvFiles.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/words_data/2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TotalFiles.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
@@ -549,10 +381,49 @@
     <entry file="file://$PROJECT_DIR$/pdfindex.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/clicks.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="204" selection-start-column="204" selection-end-column="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TotalFiles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvFiles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/words_data/total">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/words_data/vocabulory">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/words_data/vocabulary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7560" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scrap_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="61">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -561,18 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#20#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clicks.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="204" selection-start-column="204" selection-end-column="204" />
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
