@@ -23,7 +23,7 @@ def get_prior(text):
 
 
 def proxy_dist(a, b):
-    return float(1)/(abs(a**2-b**2))
+    return float(1)/(abs(a-b)**2)
 
 
 def main_search(m_words, m_data, w_count, prior):
