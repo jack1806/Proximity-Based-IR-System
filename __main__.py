@@ -1,7 +1,10 @@
+#!/usr/bin/python3
+
 import csv
 import nltk
 import time
-# from autocorrect import spell
+import sys
+from autocorrect import spell
 from DocumentSearch import DocumentSearch
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -57,16 +60,20 @@ if __name__ == "__main__":
     with open(WORDS_DATA_LOCATION+"/total", 'r') as w:
             words_count = int(w.readline())
 
-    query = input("Query : ")
+    # print(sys.argv)
+    if len(sys.argv)>1:
+        query = " ".join(sys.argv[1::])
+    else:
+        query = input("Query : ")
 
     start_time = time.time()
 
-    # f_query = ""
-    # for i in query.split():
-    #     f_query += spell(i)+" "
-    # query = f_query
+    f_query = ""
+    for i in query.split():
+        f_query += spell(i)+" "
+    query = f_query
 
-    # print(query)
+    print(query)
 
     punctuations = ['(', ')', ';', ':', '[', ']', ',', '.', "'s", '-']
     stop_words = stopwords.words('english')

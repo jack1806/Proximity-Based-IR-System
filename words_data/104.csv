@@ -1,437 +1,335 @@
-$,%,','','as,//pglaf.org,//pglaf.org/fundraising,//www.pglaf.org,1,1.e.8,1.e.9,1.f,1.f.1,1.f.2,1.f.3,1.f.4,1.f.5,1.f.6,1500,1887,2,20,2001,3,30,4,4557,"5,000",501,596,60,6221541,64,801,809,84116,90,99712.,@,``,access,accessible,accordance,actual,additional,additions,address,aged,agent,agree,agreed,agreement,ak,allow,already,also,alteration,anyone,applicable,archive,arise,array,assistance,associated,available,ax,b,b.,breach,business,c,ca,cal,calculate,carry,cause,ce,certain,char,charge,chief,choose,city,clearly,codes,collection,come,comply,computer,computers,consequential,considerable,contact,contain,contract,contributions,copies,copy,copying,copyright,corporation,corrupt,costs,created,creating,criti,damage,damaged,damages,data,date,days,deductible,def,defect,defective,defects,deletions,demand,depends,derive,described,despite,destroy,different,direct,directly,director,disclaim,disclaimer,disclaimers,discontinue,discover,discovered,disk,distribute,distributed,distributing,distribution,distributor,domain,donate,donations,dr.,e,ect,educational,effort,efforts,ein,elect,electronic,electronically,email,employee,employees,en,ensuring,entity,equipment,errors,even,exce,except,exclusion,executive,exempt,exists,expend,expenses,explanation,express,extent,f,f3,fairbanks,federal,fee,fees,financial,fitness,fix,following,form,formats,forth,found,founda,foundation,fread,free,freely,full,future,g,gbnewby,ge,generations,give,goals,granted,gregory,gross,group,gutenberg,harmless,hart,help,hold,http,hundreds,identification,identify,implied,important,inaccu,incidental,includi,includin,including,incomplete,increasing,indemnify,indemnity,indirect,indirectly,information,infringement,intellectual,internal,interpreted,invalidity,iterary,ive,kind,l,lacement,lake,law,laws,lculated,learn,legal,legally,letter,liability,liable,license,licensed,lieu,life,limitation,limited,links,literary,located,locations,machine,mail,maintaining,make,manent,many,marked,maximum,may,medium,melan,merchantibility,method,michael,middle,mission,mississippi,modification,money,must,need,negligence,new,newby,ng,non,north,noti,notifies,number,numero,obsolete,obtain,occur,office,official,old,opportunities,opportunity,organized,outdated,owed,owner,pag,page,paid,paragraph,particularly,party,pay,payments,people,per,performing,periodic,permission,permitted,person,pglaf.org,physical,possessed,possibility,posted,prepare,principal,problem,production,profit,profits,project,promotion,proo,property,provide,provided,providing,provision,provisions,pt,public,punitive,purpose,rate,reaching,read,readable,reasonable,receipt,receive,received,receiving,refund,remain,remaining,remedies,rep,replacement,reported,require,required,research,return,returns,revenue,right,rk,royalties,royalty,rranty,s.,s/he,salt,scattered,second,section,sections,secure,see,sending,sent,service,set,shall,site,small,specified,spread,state,states,status,stored,strict,support,survive,synonymous,tax,taxes,terms,th,throughout,tion,tm,tm's,trademark,transcribe,transcription,types,u.s.,unenforceability,unless,upon,us,use,user,using,ut,variety,violates,virus,void,volunteers,wa,walks,warranties,warranty,web,west,wh,wide,widest,wish,within,without,wo,work,works,writing,writt,written
-$,2,"[826, 828]"
-%,1,[31]
-',1,[441]
-'',4,"[104, 252, 254, 289]"
-'as,1,[440]
-//pglaf.org,1,[766]
-//pglaf.org/fundraising,1,[697]
-//www.pglaf.org,1,[651]
-1,1,[827]
-1.e.8,2,"[10, 12]"
-1.e.9,2,"[11, 177]"
-1.f,1,[217]
-1.f.1,1,[218]
-1.f.2,1,[278]
-1.f.3,4,"[149, 292, 353, 437]"
-1.f.4,1,[428]
-1.f.5,1,[452]
-1.f.6,1,[494]
-1500,1,[738]
-1887,1,[747]
-2,1,[558]
-20,1,[30]
-2001,1,[617]
-3,5,"[216, 645, 653, 669, 693]"
-30,1,[117]
-4,3,"[95, 646, 781]"
-4557,1,[719]
-"5,000",1,[829]
-501,2,"[667, 691]"
-596,1,[746]
-60,1,[71]
-6221541,1,[690]
-64,1,[689]
-801,1,[745]
-809,1,[736]
-84116,1,[744]
-90,2,"[164, 363]"
-99712.,1,[725]
-@,2,"[750, 778]"
-``,2,"[96, 285]"
-access,2,"[19, 140]"
-accessible,1,[814]
-accordance,2,"[147, 513]"
-actual,1,[340]
-additional,1,[767]
-additions,1,[547]
-address,1,[92]
-aged,1,[582]
-agent,1,[502]
-agree,4,"[121, 319, 333, 496]"
-agreed,1,[56]
-agreement,9,"[170, 194, 310, 338, 469, 474, 475, 489, 514]"
-ak,1,[724]
-allow,1,[454]
-already,1,[44]
-also,1,[417]
-alteration,1,[545]
-anyone,1,[505]
-applicable,3,"[47, 473, 483]"
-archive,11,"[64, 90, 102, 202, 296, 621, 638, 658, 663, 702, 787]"
-arise,1,[533]
-array,1,[818]
-assistance,1,[598]
-associated,1,[516]
-available,1,[614]
-ax,1,[677]
-b,1,[544]
-b.,1,[772]
-breach,2,"[324, 326]"
-business,2,"[733, 749]"
-c,3,"[554, 668, 692]"
-ca,1,[40]
-cal,1,[601]
-calculate,1,[46]
-carry,1,[801]
-cause,2,"[537, 556]"
-ce,1,[350]
-certain,2,"[456, 461]"
-char,1,[179]
-charge,1,[14]
-chief,1,[774]
-choose,1,[406]
-city,1,[742]
-clearly,1,[84]
-codes,1,[274]
-collection,2,"[239, 611]"
-come,1,[616]
-comply,2,"[8, 168]"
-computer,2,"[271, 273]"
-computers,2,"[576, 584]"
-consequential,1,[343]
-considerable,1,[224]
-contact,4,"[211, 753, 756, 768]"
-contain,1,[251]
-contract,1,[327]
-contributions,1,[698]
-copies,4,"[17, 133, 141, 507]"
-copy,3,"[156, 396, 416]"
-copying,1,[1]
-copyright,2,"[227, 263]"
-corporation,1,[671]
-corrupt,1,[259]
-costs,2,"[314, 527]"
-created,1,[623]
-creating,1,[235]
-criti,1,[600]
-damage,2,"[275, 352]"
-damaged,1,[268]
-damages,4,"[283, 313, 346, 463]"
-data,1,[260]
-date,2,"[74, 755]"
-days,4,"[72, 118, 165, 364]"
-deductible,1,[706]
-def,1,[157]
-defect,3,"[359, 418, 555]"
-defective,2,"[267, 389]"
-defects,1,[253]
-deletions,1,[548]
-demand,1,[421]
-depends,1,[792]
-derive,1,[34]
-described,1,[290]
-despite,1,[240]
-destroy,1,[132]
-different,1,[190]
-direct,1,[341]
-directly,1,[534]
-director,1,[776]
-disclaim,1,[311]
-disclaimer,3,"[282, 465, 480]"
-disclaimers,1,[455]
-discontinue,1,[138]
-discover,1,[358]
-discovered,1,[161]
-disk,1,[269]
-distribute,1,[182]
-distributed,1,[810]
-distributing,3,"[2, 20, 304]"
-distribution,4,"[172, 519, 539, 569]"
-distributor,1,[337]
-domain,2,"[233, 806]"
-donate,1,[57]
-donations,6,"[98, 589, 641, 783, 800, 825]"
-dr.,2,"[721, 770]"
-e,3,"[114, 764, 816]"
-ect,1,[158]
-educational,1,[670]
-effort,1,[225]
-efforts,3,"[241, 586, 640]"
-ein,1,[684]
-elect,1,[392]
-electronic,9,"[24, 159, 186, 245, 308, 360, 511, 523, 570]"
-electronically,2,"[401, 412]"
-email,2,"[748, 752]"
-employee,1,[503]
-employees,2,"[222, 727]"
-en,1,[372]
-ensuring,1,[607]
-entity,2,"[387, 403]"
-equipment,3,"[277, 819, 822]"
-errors,1,[262]
-even,1,[347]
-exce,1,[328]
-except,2,"[284, 429]"
-exclusion,1,[459]
-executive,1,[775]
-exempt,2,"[678, 834]"
-exists,1,[585]
-expend,1,[223]
-expenses,2,"[315, 528]"
-explanation,2,"[373, 385]"
-express,1,[444]
-extent,1,[708]
-f,1,[464]
-f3,1,[332]
-fairbanks,1,[723]
-federal,2,"[685, 711]"
-fee,4,"[16, 29, 49, 181]"
-fees,2,"[318, 532]"
-financial,1,[594]
-fitness,1,[450]
-fix,1,[426]
-following,2,"[73, 536]"
-form,1,[813]
-formats,1,[572]
-forth,4,"[193, 214, 435, 468]"
-found,1,[758]
-founda,1,[703]
-foundation,18,"[65, 91, 103, 203, 212, 297, 334, 499, 504, 622, 639, 647, 659, 664, 683, 715, 759, 788]"
-fread,1,[231]
-free,2,"[171, 568]"
-freely,2,"[613, 809]"
-full,4,"[106, 123, 150, 707]"
-future,2,"[628, 632]"
-g,1,[578]
-gbnewby,1,[777]
-ge,1,[180]
-generations,2,"[615, 633]"
-give,2,"[348, 407]"
-goals,1,[606]
-granted,1,[676]
-gregory,1,[771]
-gross,1,[32]
-group,1,[188]
-gutenberg,35,"[4, 22, 37, 53, 61, 88, 100, 125, 143, 174, 184, 200, 208, 220, 237, 243, 294, 300, 306, 509, 521, 541, 550, 562, 565, 604, 609, 619, 630, 636, 656, 661, 700, 785, 790]"
-harmless,1,[525]
-hart,1,[205]
-help,1,[642]
-hold,1,[498]
-http,3,"[650, 696, 765]"
-hundreds,1,[587]
-identification,1,[687]
-identify,1,[226]
-implied,2,"[445, 457]"
-important,1,[831]
-inaccu,1,[257]
-incidental,1,[345]
-includi,1,[529]
-includin,1,[577]
-including,3,"[316, 446, 820]"
-incomplete,1,[256]
-increasing,1,[803]
-indemnify,1,[497]
-indemnity,1,[495]
-indirect,1,[342]
-indirectly,1,[535]
-information,6,"[97, 559, 654, 757, 769, 782]"
-infringement,1,[266]
-intellectual,1,[264]
-internal,1,[680]
-interpreted,1,[477]
-invalidity,1,[486]
-iterary,1,[63]
-ive,1,[419]
-kind,1,[443]
-l,1,[62]
-lacement,1,[395]
-lake,1,[741]
-law,2,"[471, 485]"
-laws,3,"[673, 712, 714]"
-lculated,1,[41]
-learn,1,[634]
-legal,2,"[317, 531]"
-legally,1,[76]
-letter,1,[694]
-liability,3,"[312, 323, 526]"
-liable,1,[339]
-license,1,[127]
-licensed,1,[807]
-lieu,2,"[397, 413]"
-life,1,[592]
-limitation,3,"[460, 466, 481]"
-limited,5,"[255, 279, 354, 430, 447]"
-links,1,[754]
-literary,10,"[89, 101, 201, 295, 620, 637, 657, 662, 701, 786]"
-located,2,"[718, 735]"
-locations,1,[732]
-machine,1,[811]
-mail,1,[115]
-maintaining,1,[832]
-make,1,[478]
-manent,1,[627]
-many,1,[823]
-marked,1,[85]
-maximum,1,[479]
-may,6,"[13, 248, 250, 391, 405, 420]"
-medium,5,"[137, 247, 270, 380, 383]"
-melan,1,[720]
-merchantibility,1,[449]
-method,1,[43]
-michael,1,[204]
-middle,1,[581]
-mission,2,"[560, 802]"
-mississippi,1,[675]
-modification,1,[546]
-money,3,"[108, 152, 368]"
-must,4,"[68, 128, 195, 381]"
-need,1,[599]
-negligence,1,[321]
-new,1,[583]
-newby,1,[773]
-ng,1,[530]
-non,1,[665]
-north,1,[737]
-noti,1,[349]
-notifies,1,[112]
-number,2,"[688, 804]"
-numero,1,[730]
-obsolete,1,[579]
-obtain,1,[196]
-occur,1,[538]
-office,2,"[717, 734]"
-official,1,[762]
-old,1,[580]
-opportunities,1,[425]
-opportunity,1,[409]
-organized,1,[672]
-outdated,1,[821]
-owed,1,[50]
-owner,5,"[51, 206, 298, 336, 501]"
-pag,1,[763]
-page,1,[649]
-paid,4,"[69, 109, 153, 369]"
-paragraph,6,"[9, 59, 148, 291, 331, 436]"
-particularly,1,[830]
-party,1,[303]
-pay,1,[27]
-payments,2,"[67, 83]"
-people,1,[590]
-per,1,[626]
-performing,1,[0]
-periodic,1,[79]
-permission,1,[197]
-permitted,2,"[482, 709]"
-person,3,"[374, 386, 402]"
-pglaf.org,2,"[751, 779]"
-physical,2,"[136, 379]"
-possessed,1,[135]
-possibility,1,[351]
-posted,1,[695]
-prepare,2,"[75, 78]"
-principal,1,[716]
-problem,1,[427]
-production,1,[517]
-profit,1,[666]
-profits,1,[33]
-project,35,"[3, 21, 36, 52, 60, 87, 99, 124, 142, 173, 183, 199, 207, 219, 236, 242, 293, 299, 305, 508, 520, 540, 549, 561, 564, 603, 608, 618, 629, 635, 655, 660, 699, 784, 789]"
-promotion,1,[518]
-proo,1,[230]
-property,1,[265]
-provide,5,"[105, 146, 393, 596, 624]"
-provided,4,"[26, 330, 388, 439]"
-providing,3,"[18, 404, 506]"
-provision,1,[488]
-provisions,1,[493]
-pt,1,[329]
-public,3,"[232, 798, 805]"
-punitive,1,[344]
-purpose,1,[451]
-rate,1,[258]
-reaching,1,[602]
-read,1,[276]
-readable,2,"[573, 812]"
-reasonable,1,[15]
-receipt,2,"[119, 166]"
-receive,2,"[366, 410]"
-received,3,"[375, 377, 399]"
-receiving,1,[365]
-refund,9,"[107, 151, 288, 357, 367, 398, 414, 422, 433]"
-remain,1,[612]
-remaining,1,[492]
-remedies,1,[320]
-rep,1,[394]
-replacement,4,"[155, 287, 356, 432]"
-reported,1,[162]
-require,1,[129]
-required,1,[77]
-research,1,[228]
-return,2,"[131, 382]"
-returns,1,[81]
-revenue,1,[681]
-right,3,"[286, 355, 431]"
-rk,1,[553]
-royalties,1,[58]
-royalty,3,"[28, 66, 82]"
-rranty,1,[281]
-s.,1,[722]
-s/he,1,[120]
-salt,1,[740]
-scattered,1,[728]
-second,2,"[408, 415]"
-section,5,"[94, 215, 557, 652, 780]"
-sections,1,[644]
-secure,1,[625]
-see,1,[643]
-sending,1,[370]
-sent,1,[86]
-service,1,[682]
-set,4,"[192, 213, 434, 467]"
-shall,2,"[476, 490]"
-site,1,[761]
-small,1,[824]
-specified,1,[93]
-spread,1,[797]
-state,4,"[472, 484, 674, 713]"
-states,1,[453]
-status,1,[679]
-stored,1,[249]
-strict,1,[322]
-support,2,"[595, 799]"
-survive,1,[794]
-synonymous,1,[567]
-tax,4,"[80, 686, 705, 833]"
-taxes,1,[48]
-terms,3,"[122, 169, 191]"
-th,1,[815]
-throughout,1,[729]
-tion,1,[704]
-tm,22,"[5, 23, 38, 54, 126, 144, 175, 185, 209, 238, 244, 301, 307, 510, 522, 542, 551, 563, 566, 610, 631, 791]"
-tm's,1,[605]
-trademark,5,"[55, 210, 302, 335, 500]"
-transcribe,1,[229]
-transcription,1,[261]
-types,1,[462]
-u.s.,1,[710]
-unenforceability,1,[487]
-unless,1,[7]
-upon,1,[793]
-us,1,[731]
-use,3,"[35, 45, 139]"
-user,2,"[110, 130]"
-using,1,[42]
-ut,1,[743]
-variety,1,[575]
-violates,1,[470]
-virus,1,[272]
-void,1,[491]
-volunteers,6,"[221, 515, 588, 593, 597, 726]"
-wa,1,[280]
-walks,1,[591]
-warranties,3,"[442, 448, 458]"
-warranty,1,[325]
-web,2,"[648, 760]"
-west,1,[739]
-wh,1,[111]
-wide,1,[796]
-widest,2,"[574, 817]"
-wish,1,[178]
-within,4,"[70, 116, 163, 362]"
-without,2,"[424, 795]"
-wo,1,[552]
-work,13,"[154, 160, 167, 187, 309, 361, 376, 378, 390, 400, 411, 438, 543]"
-works,13,"[6, 25, 39, 134, 145, 176, 189, 234, 246, 512, 524, 571, 808]"
-writing,3,"[113, 198, 423]"
-writt,1,[371]
-written,1,[384]
+!,','','mock,'re,'ve,--,30,?,_,_and,_groping,_p.p.s,_postscript._,_right,_that,_the,_touch_,``,accounting,accounts,accusation,ad,adventures,ago,air,ake,al,ali,alice,along,also,among,ancient,another,answered,appeals,around,arrived,assembled,away,bank,beat,beau,beautiful,began,beginning,begun,believe_,beneath,blasts,blew,blindly,board,boat,book,borne,boy,breeze,bright,brushing,came,cards,cares,ce,certainly,child,childhood,children,children's,choked,chorus,city,close,come,convalescen,could,crew,cried,crowd,cry,curious,custody,dainties,dance,darkness_,day,days,dear,december._,deeply,distance,dream,dreaming,e,eager,eagerl,end,even,evening,everybody,evidence,expressed,eyes,f,face,faintly,fashion,faster,feeble,feel,feeling,fellow,figure,find,finished,first,fishes,fluttered,flying,foll,following,follows,fore,found,fright,gather,gave,gazette,gentle,gently,getting,given,glad,gliding,go,god,good,great,green,ground,grown,gryphon,hand,hands,happy,hear,heard,heart,hearts,helpless,herald,hiawatha,hm,hold,homes,hospitals,hot,hurried,ice,idea,illustration,james,joined,joys,jumped,june,keep,king,kissed,knave,lap,late,laughter,leaves,life,lifted,like,listened,listening,little,lo,lobsters,long,longer,longfellow,loudly,love,loving,lying,made,many,mark,melancholy,merry,might,mock,music,n't,near,nice,none,nonsense,nothing,offended,oh,old,one,oop,ootiful,ound,oup,owed,pack,panted,parchment,party,passed,paws,perhaps,plain,please,pleasure,prefer,prettily,profits,published,queen,quiet,quite,rabbit,ran,rather,read,remembering,repeat,replied,rich,riper,river,rose,round,run,sadly,said,salmon,sang,sat,saw,scream,scroll,sea,seated,second,sentence,setting,shall,sick,sighed,simple,sing,singing,sister,sleep,slowly,sobs,sometimes,song,soo,sorrows,soup,st.,stole,stood,stoop,stream,strengthened_,summer,sun,tail,taking,tale,tarts,tastes,tea,thank,thick,thinking,thought,three,throne,till,time,toes,told,tone,tongue,took,treading,trees,trial,tried,trumpet,try,tuesday,tureen,turnings,turtle,twist,unrolled,upon,voice,voices,waiting,wake,watching,water,waters,waving,well,went,white,whole,winding,within,without,wo,woman,wonderful,words,would,wound,year,years
+!,36,"[27, 36, 39, 45, 51, 80, 92, 95, 103, 123, 132, 137, 144, 151, 163, 166, 178, 184, 207, 231, 255, 258, 288, 300, 308, 312, 323, 328, 335, 345, 377, 380, 389, 396, 415, 486]"
+',1,[100]
+'',37,"[15, 28, 33, 52, 55, 67, 75, 81, 104, 115, 167, 179, 185, 199, 208, 219, 232, 259, 274, 289, 291, 293, 298, 301, 309, 313, 324, 329, 336, 348, 381, 390, 397, 420, 603, 606, 623]"
+'mock,1,[97]
+'re,1,[341]
+'ve,2,"[388, 393]"
+--,14,"[22, 139, 142, 146, 149, 153, 156, 158, 221, 224, 226, 462, 470, 591]"
+30,1,[580]
+?,5,"[66, 74, 127, 198, 347]"
+_,1,[611]
+_and,1,[620]
+_groping,1,[612]
+_p.p.s,1,[590]
+_postscript._,1,[567]
+_right,1,[617]
+_that,1,[607]
+_the,1,[568]
+_touch_,1,[615]
+``,24,"[53, 61, 70, 76, 90, 164, 175, 182, 196, 205, 253, 296, 299, 304, 310, 319, 325, 332, 340, 375, 384, 391, 410, 601]"
+accounting,1,[93]
+accounts,1,[578]
+accusation,1,[257]
+ad,1,[365]
+adventures,3,"[403, 438, 543]"
+ago,1,[547]
+air,1,[352]
+ake,1,[534]
+al,1,[338]
+ali,1,[399]
+alice,11,"[57, 82, 189, 201, 315, 378, 421, 437, 474, 516, 545]"
+along,2,"[451, 493]"
+also,1,[597]
+among,1,[471]
+ancient,1,[445]
+another,1,[472]
+answered,1,[204]
+appeals,1,[604]
+around,3,"[44, 241, 531]"
+arrived,1,[237]
+assembled,1,[240]
+away,2,"[287, 370]"
+bank,1,[364]
+beat,1,[361]
+beau,2,"[138, 145]"
+beautiful,7,"[116, 130, 135, 160, 161, 228, 229]"
+began,2,"[109, 440]"
+beginning,1,[177]
+begun,1,[172]
+believe_,1,[605]
+beneath,2,"[16, 494]"
+blasts,1,[266]
+blew,1,[264]
+blindly,1,[613]
+board,1,[461]
+boat,2,"[457, 490]"
+book,1,[570]
+borne,1,[213]
+boy,1,[596]
+breeze,1,[214]
+bright,3,"[477, 495, 536]"
+brushing,1,[369]
+came,3,"[2, 212, 353]"
+cards,1,[344]
+cares,1,[346]
+ce,1,[400]
+certainly,1,[414]
+child,1,[557]
+childhood,1,[528]
+children,3,"[460, 533, 577]"
+children's,1,[572]
+choked,1,[112]
+chorus,2,"[32, 165]"
+city,1,[446]
+close,1,[3]
+come,4,"[35, 41, 183, 206]"
+convalescen,1,[574]
+could,1,[463]
+crew,1,[499]
+cried,3,"[168, 186, 314]"
+crowd,1,[239]
+cry,1,[174]
+curious,2,"[394, 411]"
+custody,1,[243]
+dainties,1,[124]
+dance,1,[24]
+darkness_,2,"[614, 619]"
+day,2,"[280, 497]"
+days,2,"[561, 565]"
+dear,2,"[379, 413]"
+december._,1,[589]
+deeply,1,[108]
+distance,1,[181]
+dream,7,"[395, 412, 428, 443, 487, 512, 514]"
+dreaming,1,[441]
+e,4,"[155, 157, 223, 225]"
+eager,2,"[478, 537]"
+eagerl,1,[84]
+end,2,"[194, 566]"
+even,1,[542]
+evening,4,"[129, 134, 159, 227]"
+everybody,1,[317]
+evidence,2,"[292, 307]"
+expressed,1,[594]
+eyes,2,"[479, 535]"
+f,1,[598]
+face,1,[374]
+faintly,1,[211]
+fashion,1,[442]
+faster,1,[210]
+feeble,1,[608]
+feel,1,[549]
+feeling,1,[58]
+fellow,1,[102]
+figure,2,"[60, 65]"
+find,1,[552]
+finished,1,[406]
+first,2,"[305, 322]"
+fishes,1,[46]
+fluttered,1,[372]
+flying,1,[354]
+foll,1,[215]
+following,1,[588]
+follows,1,[272]
+fore,1,[5]
+found,1,[362]
+fright,1,[359]
+gather,1,[530]
+gave,1,[356]
+gazette,1,[585]
+gentle,1,[25]
+gently,1,[368]
+getting,1,[418]
+given,1,[571]
+glad,1,[59]
+gliding,1,[456]
+go,1,[38]
+god,1,[616]
+good,1,[49]
+great,1,[238]
+green,1,[119]
+ground,1,[404]
+grown,1,[519]
+gryphon,6,"[29, 69, 85, 169, 187, 203]"
+hand,3,"[190, 250, 618]"
+hands,1,[609]
+happy,2,"[559, 563]"
+hear,1,[464]
+heard,1,[180]
+heart,1,[527]
+hearts,2,"[276, 282]"
+helpless,1,[610]
+herald,1,[254]
+hiawatha,1,[602]
+hm,1,[91]
+hold,1,[326]
+homes,1,[575]
+hospitals,1,[573]
+hot,1,[121]
+hurried,1,[191]
+ice,1,[339]
+idea,1,[320]
+illustration,3,"[273, 290, 562]"
+james,1,[584]
+joined,1,[30]
+joys,1,[555]
+jumped,1,[318]
+june,1,[579]
+keep,1,[522]
+king,4,"[233, 244, 261, 295]"
+kissed,1,[408]
+knave,2,"[242, 281]"
+lap,1,[366]
+late,1,[419]
+laughter,2,"[466, 502]"
+leaves,1,[371]
+life,1,[558]
+lifted,1,[621]
+like,1,[467]
+listened,1,[482]
+listening,1,[476]
+little,8,"[357, 436, 473, 488, 515, 532, 544, 595]"
+lo,1,[485]
+lobsters,1,[19]
+long,2,"[386, 546]"
+longer,1,[431]
+longfellow,1,[600]
+loudly,1,[316]
+love,1,[23]
+loving,1,[526]
+lying,1,[363]
+made,1,[277]
+many,2,"[507, 538]"
+mark,1,[7]
+melancholy,1,[217]
+merry,2,"[458, 498]"
+might,1,[426]
+mock,3,"[9, 105, 170]"
+music,2,"[468, 500]"
+n't,1,[334]
+near,1,[450]
+nice,1,[385]
+none,1,[48]
+nonsense,1,[311]
+nothing,1,[342]
+offended,1,[88]
+oh,2,"[77, 392]"
+old,1,[101]
+one,2,"[249, 506]"
+oop,4,"[143, 150, 154, 222]"
+ootiful,2,"[140, 147]"
+ound,1,[599]
+oup,1,[117]
+owed,1,[216]
+pack,2,"[343, 350]"
+panted,1,[200]
+parchment,2,"[252, 269]"
+party,1,[459]
+passed,1,[504]
+paws,1,[6]
+perhaps,1,[541]
+plain,1,[452]
+please,1,[79]
+pleasure,1,[553]
+prefer,1,[72]
+prettily,1,[593]
+profits,1,[569]
+published,1,[582]
+queen,4,"[234, 275, 303, 331]"
+quiet,1,[447]
+quite,1,[286]
+rabbit,2,"[247, 263]"
+ran,4,"[202, 209, 422, 424]"
+rather,1,[87]
+read,3,"[256, 271, 405]"
+remembering,1,[556]
+repeat,1,[173]
+replied,1,[83]
+rich,1,[118]
+riper,1,[523]
+river,1,[448]
+rose,1,[351]
+round,1,[505]
+run,1,[416]
+sadly,1,[13]
+said,11,"[56, 68, 86, 260, 294, 302, 330, 337, 382, 398, 409]"
+salmon,5,"[26, 34, 37, 40, 50]"
+sang,1,[11]
+sat,2,"[430, 475]"
+saw,2,"[444, 510]"
+scream,1,[358]
+scroll,2,"[251, 270]"
+sea,2,"[18, 47]"
+seated,1,[235]
+second,2,"[64, 586]"
+sentence,3,"[297, 306, 321]"
+setting,1,[433]
+shall,1,[62]
+sick,1,[576]
+sighed,1,[107]
+simple,3,"[525, 550, 554]"
+sing,2,"[96, 114]"
+singing,1,[31]
+sister,6,"[367, 383, 402, 407, 429, 489]"
+sleep,1,[387]
+slowly,3,"[12, 455, 492]"
+sobs,1,[113]
+sometimes,1,[111]
+song,3,"[73, 78, 195]"
+soo,4,"[141, 148, 152, 220]"
+sorrows,1,[551]
+soup,7,"[99, 128, 131, 133, 136, 162, 230]"
+st.,1,[583]
+stole,1,[283]
+stood,1,[245]
+stoop,1,[126]
+stream,2,"[453, 509]"
+strengthened_,1,[622]
+summer,4,"[279, 496, 560, 564]"
+sun,1,[434]
+tail,1,[43]
+taking,1,[188]
+tale,3,"[480, 484, 540]"
+tarts,2,"[278, 284]"
+tastes,1,[94]
+tea,1,[417]
+thank,1,[54]
+thick,2,"[20, 21]"
+thinking,2,"[423, 435]"
+thought,2,"[511, 592]"
+three,1,[265]
+throne,1,[236]
+till,2,"[439, 503]"
+time,2,"[8, 518]"
+toes,1,[1]
+told,2,"[401, 481]"
+tone,1,[89]
+tongue,1,[327]
+took,1,[285]
+treading,1,[0]
+trees,1,[373]
+trial,2,"[176, 197]"
+tried,1,[360]
+trumpet,2,"[248, 267]"
+try,1,[63]
+tuesday,1,[587]
+tureen,1,[122]
+turnings,1,[508]
+turtle,4,"[10, 98, 106, 171]"
+twist,1,[42]
+unrolled,1,[268]
+upon,1,[355]
+voice,1,[110]
+voices,2,"[465, 501]"
+waiting,2,"[120, 193]"
+wake,1,[376]
+watching,1,[432]
+water,1,[469]
+waters,1,[17]
+waving,1,[4]
+well,1,[425]
+went,1,[454]
+white,2,"[246, 262]"
+whole,1,[349]
+winding,1,[449]
+within,1,[513]
+without,1,[192]
+wo,1,[333]
+woman,1,[520]
+wonderful,2,"[427, 539]"
+words,3,"[14, 218, 483]"
+would,6,"[71, 125, 517, 521, 529, 548]"
+wound,1,[491]
+year,1,[581]
+years,1,[524]
